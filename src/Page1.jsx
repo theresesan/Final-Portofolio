@@ -39,7 +39,7 @@ function Page1() {
           <a href="https://github.com/theresesan" target="_blank">
             <img
               className="GithubLogo FirstPageLogo"
-              src="./src/images/github.png"
+              src="./images/github.png"
               alt=""
             />
           </a>
@@ -49,7 +49,7 @@ function Page1() {
           >
             <img
               className="GithubLogo FirstPageLogo"
-              src="./src/images/linkedin.png"
+              src="./images/linkedin.png"
               alt=""
             />
           </a>
