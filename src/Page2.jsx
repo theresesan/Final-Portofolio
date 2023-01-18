@@ -5,10 +5,6 @@ import "./styles/Page2.css";
 import "./styles/Page3.css";
 import "./styles/styles.css";
 
-//Components
-import ScrollIcon from "./components/ScrollIcon";
-import ScrollDownIcon from "./components/ScrollDownIcon";
-
 function Page2() {
   return (
     <div className="Page2" id="Page2">
@@ -76,8 +72,18 @@ function Page2() {
           </a>
         </div>
         <div className="Scroll">
-          <ScrollIcon />
-          <ScrollDownIcon />
+          <img
+            src="./images/scrollicon.png"
+            alt=""
+            className="ScrollIcon"
+            onClick={() => window.location.replace("#Page1")}
+          />
+          <img
+            src="./images/scrolldown.png"
+            alt=""
+            className="ScrollIcon"
+            onClick={() => window.location.replace("#Page3")}
+          />
         </div>
       </footer>
     </div>
