@@ -1,11 +1,11 @@
 @import url("https://fonts.googleapis.com/css?family=Akshar:400|ABeeZee:400|Abhaya+Libre:700");
 
-* {
-  margin: 7px;
-}
-
 html {
   scroll-behavior: smooth;
+}
+
+* {
+  margin: 7px;
 }
 
 @media (max-width: 375px) {
@@ -16,10 +16,6 @@ html {
 
 body {
   box-sizing: border-box;
-}
-
-html {
-  scroll-behavior: smooth;
 }
 
 .FørsteDel {
