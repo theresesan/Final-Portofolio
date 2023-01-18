@@ -31,7 +31,7 @@ function Page3() {
             <h2>CatApi</h2>
           </div>
           <a href="https://github.com/theresesan/Cat-Api-Project" target="_blank">
-            <img className="ProjectImg" src="/images/Api.png" alt="" />
+            <img className="ProjectImg" src="./images/Skjermbilde.png" alt="" />
           </a>
           <div>
             <p className="ProjectInfo">Cat Api laget i React</p>
@@ -41,7 +41,7 @@ function Page3() {
       <footer className="Footer">
         <div className="LogoContainer">
           <a href="https://github.com/theresesan" target="_blank">
-            <img className="GithubLogo" src="/images/Github.png" alt="" />
+            <img className="GithubLogo" src="/images/github.png" alt="" />
           </a>
           <a
             href="https://www.linkedin.com/in/therese-sand%C3%A5ker-hagen-a5b582202/"
