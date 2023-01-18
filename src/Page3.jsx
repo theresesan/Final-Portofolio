@@ -39,7 +39,7 @@ function Page3() {
           </div>
         </div>
       </div>
-      <footer className="Footer">
+      <footer className="Footer FooterPage3">
         <div className="LogoContainer">
           <a href="https://github.com/theresesan" target="_blank">
             <img className="GithubLogo" src="./images/github.png" alt="" />
