@@ -3,7 +3,7 @@ import React from "react";
 function ScrollDownIcon() {
   return (
     <img
-      src="/images/scrollicon 2.png"
+      src="./src/images/scrolldown.png"
       alt=""
       className="ScrollIcon"
       onClick={() => window.location.replace("/#Page3")}
