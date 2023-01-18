@@ -1,0 +1,179 @@
+.Page1 {
+  background-color: var(--bg-grey);
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  height: 100vh;
+  border-bottom: solid black;
+}
+
+@media (max-width: 375px) {
+  .Page1 {
+    border-bottom: none;
+    width: 375px;
+    display: flex;
+  }
+}
+
+.NavBar {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style: none;
+  font-size: 20px;
+  padding: 0;
+  color: var(--nav-color);
+  cursor: pointer;
+  width: 75%;
+  font-family: "Poiret One", cursive;
+  letter-spacing: 2px;
+}
+
+@media (max-width: 375px) {
+  .NavBar {
+    width: 350px;
+    margin: 5 auto;
+  }
+}
+
+.NavList:hover {
+  color: var(--hover-color);
+  text-decoration: line-through white;
+}
+
+.img2-box {
+  justify-content: flex-start;
+}
+
+@media (max-width: 375px) {
+  .img2-box {
+    height: 0;
+  }
+}
+
+@media (max-width: 375px) {
+  .img-box {
+    display: flex;
+    width: 390px;
+    margin-top: 115%;
+    position: absolute;
+    justify-content: center;
+  }
+}
+
+.Flower-img {
+  height: 91vh;
+  width: 500px;
+  object-fit: cover;
+  margin: 0;
+}
+
+@media (max-width: 375px) {
+  .Flower-img {
+    width: 0;
+  }
+}
+
+.me-img {
+  height: 97vh;
+  object-fit: cover;
+  opacity: 0.5;
+  width: 100%;
+  margin: 0;
+}
+
+@media (max-width: 375px) {
+  .me-img {
+    width: 100px;
+    object-fit: fill;
+    height: 240px;
+    border: solid white;
+  }
+}
+
+.NameBox {
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  width: 400px;
+  margin-right: 90px;
+  position: relative;
+  opacity: 0.8;
+  border-radius: 8px;
+}
+
+@media (max-width: 375px) {
+  .NameBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 300px;
+    height: 100px;
+    margin-top: 35%;
+    padding: 40px;
+  }
+}
+
+.name {
+  color: white;
+  font-size: 40px;
+  font-weight: 400;
+  text-align: center;
+  width: 400px;
+  letter-spacing: 3px;
+  margin-top: 30%;
+  font-family: "Sofia", cursive;
+}
+
+@media (max-width: 900px) {
+  .name {
+    width: 340px;
+    margin-top: 40%;
+  }
+}
+
+.FrontPageTxt {
+  color: white;
+  font-size: 40px;
+  font-weight: 400;
+  text-align: center;
+  width: 400px;
+  letter-spacing: 6px;
+  margin-top: 40%;
+  font-family: "Poiret One", cursive;
+}
+
+@media (max-width: 900px) {
+  .FrontPageTxt {
+    width: 340px;
+    margin-top: 15%;
+    font-size: 20px;
+  }
+}
+
+h1 {
+  color: #cfb2b2;
+  font-size: 50px;
+  cursor: pointer;
+}
+h1 span {
+  transition: 0.5s linear;
+}
+
+h1:hover span {
+  color: rgb(255, 255, 255);
+  text-shadow: 0 0 10px rgb(55, 55, 55), 0 0 20px rgb(55, 55, 55),
+    0 0 40px rgb(55, 55, 55);
+}
+
+@media (max-width: 375px) {
+  .FirstPageLogo,
+  .GithubLogo {
+    display: flex;
+    width: 25px;
+    margin-bottom: 40px;
+    margin-left: 10px;
+  }
+}

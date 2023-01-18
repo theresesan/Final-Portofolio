@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css?family=Akshar:400|ABeeZee:400|Abhaya+Libre:700");
+
+* {
+  margin: 7px;
+}
+
+@media (max-width: 375px) {
+  * {
+    margin: 0;
+  }
+}
+
+body {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.FørsteDel {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+@media (max-width: 375px) {
+  .FørsteDel {
+    font-size: 20px;
+    font-weight: lighter;
+  }
+}
+
+.Footer {
+  display: flex;
+  width: 100%;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+@media (max-width: 900px) {
+  .Footer {
+    position: fixed;
+  }
+}
+
+.ScrollIcon {
+  width: 80px;
+  height: 70px;
+}
+
+@media (max-width: 900px) {
+  .ScrollIcon {
+    width: 50px;
+    height: 40px;
+    margin-right: 10px;
+    margin-bottom: 40px;
+    opacity: 0.3;
+  }
+}
+
+.LogoContainer {
+  margin: 0 auto;
+}
+
+.Scroll {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  cursor: pointer;
+}
+
+.GithubLogo:hover {
+  box-shadow: 0 0 5px 2px #65686b;
+}
+
+.GithubLogo {
+  width: 50px;
+  margin-top: 30px;
+}
+
+.LogoContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+@media (max-width: 900px) {
+  .LogoContainer,
+  .GithubLogo {
+    margin-top: 10%;
+    font-size: 20px;
+    width: 40px;
+  }
+}
