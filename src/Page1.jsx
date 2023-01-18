@@ -6,8 +6,6 @@ import "./styles/Page3.css";
 import "./styles/styles.css";
 
 // Components
-import MeImg from "./components/MeImg";
-import FlowerImg from "./components/FlowerImg";
 import NavBar from "./components/NavBar";
 
 function Page1() {
@@ -15,7 +13,7 @@ function Page1() {
     <div className="Page1" id="Page1">
       <div className="img2-box">
         <NavBar />
-        <FlowerImg />
+        <img className="Flower-img" src="./images/flower.png" alt="" />
       </div>
       <div className="NameBox">
         <div className="name">
@@ -39,7 +37,7 @@ function Page1() {
           <a href="https://github.com/theresesan" target="_blank">
             <img
               className="GithubLogo FirstPageLogo"
-              src="./src/images/github.png"
+              src="./images/github.png"
               alt=""
             />
           </a>
@@ -49,14 +47,18 @@ function Page1() {
           >
             <img
               className="GithubLogo FirstPageLogo"
-              src="./src/images/linkedin.png"
+              src="./images/linkedin.png"
               alt=""
             />
           </a>
         </div>
       </div>
       <div className="img-box">
-        <MeImg />
+        <img
+          className="me-img"
+          src="./images/43491F65-F9CF-4179-916D-FC403CE6B5C6.JPG"
+          alt=""
+        />
       </div>
     </div>
   );
