@@ -5,7 +5,7 @@ function NavBar() {
     <div>
       <ul className="NavBar">
         <li className="NavList" onClick={() => window.location.replace("./#Page2")}>
-          Therese Hagen
+          Om meg
         </li>
         <li className="NavList" onClick={() => window.location.replace("./#Page3")}>
           Prosjekter
