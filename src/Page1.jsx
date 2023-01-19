@@ -35,25 +35,6 @@ function Page1() {
           </h1>
         </div>
         <p className="FrontPageTxt">Frontend Utvikler</p>
-        <div className="LogoContainer">
-          <a href="https://github.com/theresesan" target="_blank">
-            <img
-              className="GithubLogo FirstPageLogo"
-              src="./images/github.png"
-              alt=""
-            />
-          </a>
-          <a
-            href="https://www.linkedin.com/in/therese-sand%C3%A5ker-hagen-a5b582202/"
-            target="_blank"
-          >
-            <img
-              className="GithubLogo FirstPageLogo"
-              src="./images/linkedin.png"
-              alt=""
-            />
-          </a>
-        </div>
       </div>
       <div className="img-box">
         <img
@@ -61,6 +42,25 @@ function Page1() {
           src="./images/43491F65-F9CF-4179-916D-FC403CE6B5C6.JPG"
           alt=""
         />
+      </div>
+      <div className="LogoContainer">
+        <a href="https://github.com/theresesan" target="_blank">
+          <img
+            className="GithubLogo FirstPageLogo"
+            src="./images/github.png"
+            alt=""
+          />
+        </a>
+        <a
+          href="https://www.linkedin.com/in/therese-sand%C3%A5ker-hagen-a5b582202/"
+          target="_blank"
+        >
+          <img
+            className="GithubLogo FirstPageLogo"
+            src="./images/linkedin.png"
+            alt=""
+          />
+        </a>
       </div>
     </div>
   );

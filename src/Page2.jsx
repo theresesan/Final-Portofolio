@@ -9,7 +9,7 @@ function Page2() {
   return (
     <div className="Page2" id="Page2">
       <div className="FlexContainer">
-        <div className="OmMeg">
+        <div className="AboutMe">
           <p>
             <h2 className="FirstSentence">
               <code className="CodeTag">&lt;h1&gt;</code>
@@ -20,11 +20,11 @@ function Page2() {
               <code className="CodeTag">&lt;p&gt;</code>
             </strong>{" "}
             Jeg er ei jente på 26 år som har stor interesse for koding! Interessen
-            vokser mer etterhvert som jeg lærer mer, og ønske om å lære mer og
-            tilegne meg mer kunnskap er noe jeg hele tiden jobber for. Det å ha en
-            ide i hodet og deretter gjøre det visuelt er veldig gøy. Jeg er godt
-            vandt med samarbeid og har alltid vært pliktoppfyllende. Andre sier også
-            jeg er ydmyk og har en god stå-på vilje.{" "}
+            vokser mer etterhvert som jeg lærer mer, ønske om å lære mer og tilegne
+            meg mer kunnskap er noe jeg hele tiden jobber for. Det å ha en ide i
+            hodet og deretter gjøre det visuelt er veldig gøy. Jeg er godt vandt med
+            samarbeid og har alltid vært pliktoppfyllende. Andre sier også jeg er
+            ydmyk og har en god stå-på vilje.{" "}
             <strong>
               <code className="CodeTag">&lt;p&gt;</code>
             </strong>

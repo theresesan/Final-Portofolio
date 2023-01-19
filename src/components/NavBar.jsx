@@ -10,6 +10,9 @@ function NavBar() {
         <li className="NavList" onClick={() => window.location.replace("./#Page3")}>
           Prosjekter
         </li>
+        <li className="NavList" onClick={() => window.location.replace("./#Page4")}>
+          Kontakt
+        </li>
       </ul>
     </div>
   );

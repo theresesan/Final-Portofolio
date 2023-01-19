@@ -8,14 +8,6 @@
   border-bottom: solid black;
 }
 
-@media (max-width: 375px) {
-  .Page1 {
-    border-bottom: none;
-    width: 375px;
-    display: flex;
-  }
-}
-
 .NavBar {
   height: 5%;
   display: flex;
@@ -25,19 +17,16 @@
   list-style: none;
   font-size: 20px;
   padding: 0;
-  color: var(--nav-color);
+  color: rgb(0, 0, 0);
   cursor: pointer;
-  width: 75%;
+  width: 90%;
   font-family: "Poiret One", cursive;
   letter-spacing: 2px;
   margin-top: 2%;
-}
-
-@media (max-width: 375px) {
-  .NavBar {
-    width: 350px;
-    margin: 5 auto;
-  }
+  background-color: #cfb2b2;
+  opacity: 0.5;
+  border-radius: 4px;
+  padding: 3px;
 }
 
 .NavList:hover {
@@ -51,31 +40,15 @@
   width: 36.3%;
 }
 
-@media (max-width: 375px) {
-  .img2-box {
-    height: 0;
-  }
-}
-
 .img-box {
   width: 22%;
   margin: 0;
 }
 
-@media (max-width: 375px) {
-  .img-box {
-    display: flex;
-    width: 390px;
-    margin-top: 115%;
-    position: absolute;
-    justify-content: center;
-  }
-}
-
 .Flower-img {
   margin-top: 2%;
   height: 93vh;
-  width: 130%;
+  width: 110%;
   object-fit: cover;
   position: relative;
 }
@@ -85,27 +58,12 @@
   margin: 0;
 }
 
-@media (max-width: 375px) {
-  .Flower-img {
-    width: 0;
-  }
-}
-
 .me-img {
   width: 100%;
   height: 100vh;
   object-fit: contain;
-  opacity: 0.5;
+  opacity: 0.7;
   margin: 0;
-}
-
-@media (max-width: 375px) {
-  .me-img {
-    width: 100px;
-    object-fit: fill;
-    height: 240px;
-    border: solid white;
-  }
 }
 
 .NameBox {
@@ -116,19 +74,6 @@
   opacity: 0.8;
   border-radius: 8px;
   margin: 0;
-}
-
-@media (max-width: 375px) {
-  .NameBox {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    width: 300px;
-    height: 100px;
-    margin-top: 35%;
-    padding: 40px;
-  }
 }
 
 .name {
@@ -142,13 +87,6 @@
   font-family: "Sofia", cursive;
 }
 
-@media (max-width: 900px) {
-  .name {
-    width: 340px;
-    margin-top: 40%;
-  }
-}
-
 .FrontPageTxt {
   color: white;
   font-size: 40px;
@@ -157,14 +95,6 @@
   letter-spacing: 5px;
   margin-top: 29%;
   font-family: "Poiret One", cursive;
-}
-
-@media (max-width: 900px) {
-  .FrontPageTxt {
-    width: 340px;
-    margin-top: 15%;
-    font-size: 20px;
-  }
 }
 
 h1 {
@@ -180,14 +110,4 @@ h1:hover span {
   color: rgb(255, 255, 255);
   text-shadow: 0 0 10px rgb(55, 55, 55), 0 0 20px rgb(55, 55, 55),
     0 0 40px rgb(55, 55, 55);
-}
-
-@media (max-width: 375px) {
-  .FirstPageLogo,
-  .GithubLogo {
-    display: flex;
-    width: 25px;
-    margin-bottom: 40px;
-    margin-left: 10px;
-  }
 }
