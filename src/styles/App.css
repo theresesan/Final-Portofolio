@@ -17,8 +17,7 @@ html {
 #root {
   width: 98vw;
   margin: 0;
-  padding: 1vw;
-  border: 2px solid red;
+  padding: 0.5vw;
 }
 
 body {
@@ -81,7 +80,7 @@ body {
 }
 
 .GithubLogo {
-  width: 50px;
+  width: 40px;
   margin-top: 30px;
 }
 
@@ -98,4 +97,8 @@ body {
     font-size: 20px;
     width: 40px;
   }
+}
+
+.GithubLogo {
+  padding: 5px;
 }

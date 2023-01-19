@@ -30,6 +30,7 @@
   width: 75%;
   font-family: "Poiret One", cursive;
   letter-spacing: 2px;
+  margin-top: 2%;
 }
 
 @media (max-width: 375px) {
@@ -47,7 +48,7 @@
 .img2-box {
   justify-content: flex-start;
   margin: 0;
-  width: 33.3%;
+  width: 36.3%;
 }
 
 @media (max-width: 375px) {
@@ -57,7 +58,7 @@
 }
 
 .img-box {
-  width: 33.3%;
+  width: 22%;
   margin: 0;
 }
 
@@ -72,10 +73,11 @@
 }
 
 .Flower-img {
-  margin: 0;
-  height: 95%;
+  margin-top: 2%;
+  height: 93vh;
   width: 130%;
   object-fit: cover;
+  position: relative;
 }
 
 .FlowerImgBox {
@@ -110,8 +112,6 @@
   display: flex;
   flex-direction: column;
   height: 300px;
-  width: 33.4%;
-  margin-right: 90px;
   position: relative;
   opacity: 0.8;
   border-radius: 8px;
@@ -138,7 +138,7 @@
   text-align: center;
   width: 400px;
   letter-spacing: 3px;
-  margin-top: 30%;
+  margin-top: 19%;
   font-family: "Sofia", cursive;
 }
 
@@ -154,9 +154,8 @@
   font-size: 40px;
   font-weight: 400;
   text-align: center;
-  width: 400px;
-  letter-spacing: 6px;
-  margin-top: 40%;
+  letter-spacing: 5px;
+  margin-top: 29%;
   font-family: "Poiret One", cursive;
 }
 
@@ -170,7 +169,7 @@
 
 h1 {
   color: #cfb2b2;
-  font-size: 50px;
+  font-size: 70px;
   cursor: pointer;
 }
 h1 span {
