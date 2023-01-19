@@ -1,10 +1,10 @@
 .Page2 {
   display: flex;
   height: 100vh;
-  width: 100%;
   background-color: var(--bg-grey);
   margin: 0;
   border-bottom: solid black;
+  width: 100vw;
 }
 
 @media (max-width: 375px) {
@@ -16,7 +16,7 @@
 
 .FlexContainer2 {
   display: flex;
-  width: 90%;
+  width: 90vw;
   height: 80vh;
   position: absolute;
   color: white;
@@ -43,7 +43,7 @@
 
 .OmMeg {
   color: rgb(0, 0, 0);
-  line-height: 35px;
+  line-height: 25px;
   letter-spacing: 3px;
   font-size: 20px;
   border: var(--black-card-border);

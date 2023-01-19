@@ -13,7 +13,9 @@ function Page1() {
     <div className="Page1" id="Page1">
       <div className="img2-box">
         <NavBar />
-        <img className="Flower-img" src="./images/flower.png" alt="" />
+        <div className="FlowerImgBox">
+          <img className="Flower-img" src="./images/flower.png" alt="" />
+        </div>
       </div>
       <div className="NameBox">
         <div className="name">

@@ -5,13 +5,20 @@ html {
 }
 
 * {
-  margin: 7px;
+  margin: 0;
 }
 
 @media (max-width: 375px) {
   * {
     margin: 0;
   }
+}
+
+#root {
+  width: 98vw;
+  margin: 0;
+  padding: 1vw;
+  border: 2px solid red;
 }
 
 body {
