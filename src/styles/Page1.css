@@ -17,13 +17,12 @@
   list-style: none;
   font-size: 20px;
   padding: 0;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   cursor: pointer;
   width: 90%;
   font-family: "Poiret One", cursive;
   letter-spacing: 2px;
   margin-top: 2%;
-  background-color: #cfb2b2;
   opacity: 0.5;
   border-radius: 4px;
   padding: 3px;
