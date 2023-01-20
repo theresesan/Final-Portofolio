@@ -26,19 +26,19 @@ h2 {
 
 .FlexContainer {
   display: flex;
-  width: 100%;
+  width: 97%;
   position: absolute;
   justify-content: space-around;
   align-items: center;
   text-align: center;
   color: white;
-  margin-top: 2%;
+  margin-top: 1%;
 }
 
 .FooterPage3 {
-  margin-top: 46%;
   display: flex;
   width: 100%;
+  cursor: pointer;
 }
 
 .Info {

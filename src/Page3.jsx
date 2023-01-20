@@ -53,12 +53,18 @@ function Page3() {
         </div>
       </div>
       <footer className="Footer FooterPage3">
-        <div className="Scroll">
+        <div className="ScrollGrid">
           <img
             src="./images/scrollicon.png"
             alt=""
             className="ScrollIcon"
-            onClick={() => window.location.replace("#Page1")}
+            onClick={() => window.location.replace("#Page2")}
+          />
+          <img
+            src="./images/scrolldown.png"
+            alt=""
+            className="ScrollIcon"
+            onClick={() => window.location.replace("#Page4")}
           />
         </div>
       </footer>

@@ -26,6 +26,7 @@
   width: 50%;
   height: 70%;
   padding: 20px;
+  margin-top: 10%;
 }
 
 .FirstSentence {
@@ -42,6 +43,7 @@
 .Skills {
   display: flex;
   flex-direction: column;
+  margin-top: 8%;
 }
 
 .SkillBtn {
@@ -51,25 +53,6 @@
   display: flex;
   margin-top: 15px;
 }
-
-/* .KontaktInfo {
-  grid-area: 2 / 2 / 3 / 3;
-  color: rgb(0, 0, 0);
-  line-height: 30px;
-  letter-spacing: 3px;
-  font-size: 15px;
-  border: var(--black-card-border);
-  padding: 20px;
-  background-color: var(--card-info-bg-color);
-  font-family: "M PLUS Rounded 1c", sans-serif;
-  text-align: center;
-  padding: 20px;
-  height: 50%;
-} */
-
-/* .KontaktListe {
-  list-style: none;
-} */
 
 .LogoContainer {
   margin: 0 auto;
@@ -85,4 +68,5 @@
   height: 100%;
   margin-right: 15px;
   width: 100%;
+  cursor: pointer;
 }

@@ -9,7 +9,23 @@ import "./styles/styles.css";
 function Page4() {
   return (
     <div className="Page4" id="Page4">
-      <div className="Contact">Kontakt Meg</div>
+      <div className="ContactInfo">
+        <h2 className="ContactTxt">Kontakt</h2>
+        <ul className="ContactList">
+          <li>Therese Sandåker Hagen</li> <br />
+          <li>947 88 654</li>
+          <br />
+          <li>96thehag@gmail.com</li>
+        </ul>
+      </div>
+      <div className="BackToTop">
+        <button
+          className="BackToTopBtn"
+          onClick={() => window.location.replace("#Page1")}
+        >
+          Tilbake til toppen
+        </button>
+      </div>
     </div>
   );
 }

@@ -75,28 +75,3 @@ function Page2() {
 }
 
 export default Page2;
-
-{
-  /* <div className="KontaktInfo">
-  <h2 className="KontaktTekst">Kontakt</h2>
-  <ul className="KontaktListe">
-    <li>Therese Sandåker Hagen</li>
-    <li>947 88 654</li>
-    <li>96thehag@gmail.com</li>
-  </ul>
-</div>; */
-}
-
-{
-  /* <div className="Grid2">
-  <p>
-    {" "}
-    <span className="FørsteDel">For tiden</span> går jeg kurs i koding og
-    programmering gjennom pudium, her lærer vi blandt annet om <strong>HTML</strong>,{" "}
-    <strong>CSS</strong>, <strong>JavaScript</strong> og <strong>React</strong>. Men
-    også mye annet relevant. Jeg har jobbet flere år innen servicebransjen og
-    helsesektoren. Men nå i det siste er det <strong>koding</strong>
-    og <strong>design</strong> som har fanget min interesse.
-  </p>
-</div>; */
-}
